@@ -43,9 +43,11 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 
 ## Progression - 1 
 1. ***Day - 4 We will save our blog in an excel sheet.***
-2. ***Your task is to create a class called as Excel***
-3. ***To achieve this, lets create a abstract class OffensiveWordsChecker.***
-4. ***Create an abstract method public abstract boolean checkBlog(Blog blog).***
+2. ***Your task is to create a class called as ExcelFileStorage inside service folder.***
+3. ***Create a method called as insertBlog(Blog blog)***
+4. ***You are using apachi poi to create excel.***
+5. ***Call the insertBlog method from the BlogController after checking for offensive words.***
+6. ***Your output is an excel file.***
 
 
 
