@@ -58,8 +58,9 @@ public class BlogController extends HttpServlet {
 		excel.insertBlog(blog);
 		
 		System.out.println(check);
-		if(check) {
-			
+		if(check) 
+		{
+		
 			request.setAttribute("blog", blog);
 			request.setAttribute("user",user);
 			RequestDispatcher rd=this.getServletContext().getRequestDispatcher("/WEB-INF/views/blogView.jsp");
